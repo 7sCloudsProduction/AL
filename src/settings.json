@@ -1,0 +1,414 @@
+{
+  "name": "Alpian-APIs",
+  "version": "v2.0.0",
+  "description": "Api's Sederhana Dan Gratis Dari Alpian :)",
+  "bannerImage": "/src/banner.jpg",
+  "header": {
+    "status": "Online :("
+  },
+  "apiSettings": {
+    "creator": "Alpiann",
+    "apikey": ["alpian"]
+  },
+  "categories": [
+    {
+      "name": "AI (Artificial Intelligence)",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text=",
+          "status": "eror",
+          "params": {
+            "text": "Text for luminai to respond to"
+          }
+        },
+        {
+          "name": "Gemini",
+          "desc": "AI Assistant by Alpian – chat dengan Gemini AI",
+          "path": "/ai/gemini?text=",
+          "status": "ready",
+          "params": {
+            "text": "Teks atau perintah untuk chat AI"
+          }
+        },
+        {
+  "name": "Grok 3 Mini",
+  "desc": "AI model Grok 3 Mini untuk menjawab pertanyaan sederhana",
+  "path": "/ai/grok3mini?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks atau pertanyaan yang ingin diajukan ke Grok 3 Mini"
+  },
+  "creator": "Alpiann"
+},
+        {
+          "name": "HydroMind",
+          "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
+          "path": "/ai/hydromind?text=&model=",
+          "status": "eror",
+          "params": {
+            "text": "Teks atau perintah untuk chat AI",
+            "model": "Lihat daftar model di https://mind.hydrooo.web.id"
+          }
+        }, 
+        {
+  "name": "Gemma2 AI",
+  "desc": "Chat dengan AI Gemma2 berbasis model open-source",
+  "path": "/ai/gemma2?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks yang ingin dikirim ke AI Gemma2"
+  },
+  "creator": "Alpiann"
+        },
+        {
+  "name": "AI Custom",
+  "desc": "Chatbot AI dengan nama, logic, dan message custom",
+  "path": "/ai/aicustom?name=&logic=&message=",
+  "status": "ready",
+  "params": {
+    "name": "Nama karakter AI (opsional)",
+    "logic": "Instruksi atau personality AI",
+    "message": "Pesan yang ingin dikirim ke AI"
+  }
+        },
+    {
+      "name": "OpenAI O3",
+      "desc": "Advanced reasoning AI model O3",
+      "path": "/ai/o3?text=halo",
+      "status": "ready"
+    },
+    {
+      "name": "OpenAI O4-Mini",
+      "desc": "Lightweight reasoning AI model O4-Mini",
+      "path": "/ai/o4-mini?text=hai",
+      "status": "ready"
+    },
+        {
+  "name": "AI ToFigure",
+  "desc": "Mengubah gambar menjadi versi figure / karakter, hasil diupload ke Catbox",
+  "path": "/ai/tofigure?imageUrl=",
+  "status": "ready"
+        }
+      ]
+    },
+    
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba",
+          "status": "ready"
+        },
+        {
+          "name": "Emoji Mix",
+          "desc": "Combine two emojis into one image",
+          "path": "/random/emojimix?emoji1=🥵&emoji2=😳",
+          "status": "ready"
+        },
+        {
+  "name": "Random Pap",
+  "desc": "Dapetin Pap Dari Api Yakali Dari Dia.",
+  "path": "/random/pap",
+  "status": "ready",
+  "params": {},
+  "example": "/random/pap",
+  "output": "buffer (image/jpeg)"
+        },
+        
+  {
+    "name": "Random Waifu",
+    "desc": "Mengambil gambar random waifu. Sangean",
+    "path": "/random/waifu",
+    "status": "ready",
+    "params": {},
+    "example": "/random/waifu",
+    "output": "buffer (image/jpeg)",
+    "creator": "Alpiann"
+  },
+  {
+    "name": "Random Loli",
+    "desc": "Mengambil gambar random loli. Pedo",
+    "path": "/random/loli",
+    "status": "ready",
+    "params": {},
+    "example": "/random/loli",
+    "output": "buffer (image/jpeg)",
+    "creator": "Alpiann"
+  }
+      ]
+    },
+    {
+      "name": "Image Generator",
+      "items": [
+        {
+          "name": "Brat Maker",
+          "desc": "Generate brat style image with custom text (requires text param)",
+          "path": "/maker/brat?text=hai",
+          "status": "ready",
+          "params": {
+            "text": "Text for brat style image"
+          }
+        },
+        {
+  "name": "Fake Call Maker",
+  "desc": "FakeCall WhatsApp Jir",
+  "path": "/maker/fakecall?nama=&durasi=&avatar=",
+  "status": "ready",
+  "params": {
+    "nama": "Nama yang muncul di panggilan",
+    "durasi": "Durasi panggilan",
+    "avatar": "URL foto profil (jpg/png)"
+  },
+  "creator": "Alpiann"
+},
+{
+  "name": "Ustadz Maker",
+  "desc": "Kasih Pertanyaan Ke Ustadz",
+  "path": "/maker/ustadz?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks yang ingin ditampilkan dalam gambar"
+  },
+  "creator": "Alpiann"
+},
+{
+  "name": "Fake FB Maker",
+  "desc": "Komen FB jir Mayan buat prank Mak lu",
+  "path": "/maker/fakefb?name=&comment=&ppurl=",
+  "status": "ready",
+  "params": {
+    "name": "Nama yang muncul di komentar",
+    "comment": "Isi komentar",
+    "ppurl": "URL foto profil (jpg/png)"
+  },
+  "creator": "Alpiann"
+},
+        {
+  "name": "iPhone Quoted Chat",
+  "desc": "Generate tampilan quoted chat ala iPhone dengan custom jam, baterai, operator, dan pesan.",
+  "path": "/maker/iqc?time=&battery=&carrier=&message=",
+  "status": "ready",
+  "params": {
+    "time": "Waktu yang ditampilkan (contoh: 18:00)",
+    "battery": "Persentase baterai (contoh: 40)",
+    "carrier": "Nama operator (contoh: INDOSAT)",
+    "message": "Teks pesan yang ingin ditampilkan"
+  },
+  "creator": "Alpiann"
+        },
+        {
+  "name": "YouTube Comment Maker",
+  "desc": "Buat gambar komentar YouTube dengan teks, avatar, dan username",
+  "path": "/maker/ytcomment?text=&avatar=&username=",
+  "status": "ready",
+  "params": {
+    "text": "Teks komentar yang ingin ditampilkan",
+    "avatar": "URL foto profil (jpg/png)",
+    "username": "Nama pengguna yang muncul di komentar"
+  },
+  "creator": "Alpiann"
+},
+        {
+  "name": "Carbonify",
+  "desc": "Generate carbon image (code snippet) using Carbonara API",
+  "path": "/maker/carbon?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks kode yang ingin dijadikan gambar"
+  },
+  "creator": "Alpiann"
+        },
+        {
+  "name": "BratVid",
+  "desc": "Generate video with custom text using BratVid maker",
+  "path": "/maker/bratvid?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks yang ingin dijadikan video"
+  }
+}
+      ]
+    },
+    { 
+      "name": "Tools",
+      "items": [
+      {
+  "name": "Remove Background",
+  "desc": "Menghapus background gambar secara otomatis",
+  "path": "/tools/removebg?url=",
+  "status": "ready",
+  "params": {
+    "url": "URL gambar yang ingin dihapus background-nya"
+  },
+  "creator": "Alpiann"
+},
+{
+  "name": "Screenshot Web",
+  "desc": "Ambil screenshot dari website manapun",
+  "path": "/tools/ssweb?url=",
+  "status": "ready",
+  "params": {
+    "url": "URL website yang ingin di-screenshot"
+  },
+  "creator": "Alpiann"
+},
+{
+  "name": "Image Upscale",
+  "desc": "Tingkatkan resolusi gambar dari URL yang diberikan",
+  "path": "/tools/hd?url=",
+  "status": "ready",
+  "params": {
+    "url": "URL gambar yang ingin di-upscale"
+  },
+  "creator": "Alpiann"
+}
+        
+            ]
+        },
+    {
+    "name": "Downloader",
+    "items": [
+      
+    {
+  "name": "SoundCloud Downloader",
+  "desc": "Download audio dari link SoundCloud",
+  "path": "/download/soundcloud?url=",
+  "status": "ready",
+  "params": {
+    "url": "URL lagu SoundCloud yang ingin didownload"
+  },
+  "creator": "Alpiann"
+},
+    {
+  "name": "MediaFire Downloader",
+  "desc": "Download file dari MediaFire.",
+  "path": "/download/mediafire?url=",
+  "status": "ready",
+  "example": "/download/mediafire?url=https://www.mediafire.com/file/dd03rakruw4soks/aimlock+ramadhan+5.7z/file"
+},
+      {
+  "name": "MCPEDL Downloader",
+  "desc": "Scrape link download langsung dari halaman MCPEDL",
+  "path": "/download/mcpedl?url=",
+  "status": "ready",
+  "params": {
+    "url": "URL halaman MCPEDL yang mengandung tombol download"
+  },
+  "creator": "Alpiann"
+      },
+{
+  "name": "TikTok Downloader",
+  "desc": "Download video TikTok tanpa watermark.",
+  "path": "/download/tiktok?url=",
+  "status": "ready",
+  "example": "/download/tiktok?url=https://vt.tiktok.com/ZSDH914mx/"
+},
+      {
+  "name": "YouTube MP3",
+  "desc": "Download lagu dari YouTube dalam format MP3",
+  "path": "/download/ytmp3?url=",
+  "status": "ready",
+  "params": {
+    "url": "Link YouTube yang ingin diunduh"
+  },
+  "example": "/download/ytmp3?url=https://youtube.com/watch?v=iQo-8wx0l0Y"
+      },
+      {
+  "name": "YouTube MP4",
+  "desc": "Download video dari YouTube dalam format MP4",
+  "path": "/download/ytmp4?url=",
+  "status": "ready",
+  "params": {
+    "url": "Link YouTube yang ingin diunduh"
+  },
+  "example": "/download/ytmp4?url=https://youtube.com/watch?v=iQo-8wx0l0Y"
+      },
+      {
+  "name": "NPM Downloader",
+  "desc": "Download package dari NPM registry",
+  "path": "/downloader/npm?query=",
+  "status": "ready",
+  "params": {
+    "query": "Nama package NPM"
+  },
+  "example": "/downloader/npm?query=@rexxhayanasi/elaina-bail"
+      }
+]
+},
+    {
+      "name": "Search Tools",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        },
+        {
+  "name": "MCPE DL Search",
+  "desc": "Cari Addon/Mod Minecraft PE dari MCPEDL",
+  "path": "/search/mcpedl?q=",
+  "status": "ready",
+  "params": {
+    "q": "Kata kunci pencarian (misalnya: Addon, Mod, dll)"
+  },
+  "creator": "Alpiann"
+        },
+        {
+  "name": "Anime Search",
+  "desc": "Cari informasi anime berdasarkan judul",
+  "path": "/search/animein?q=",
+  "status": "ready",
+  "params": {
+    "q": "Judul anime yang ingin dicari",
+    "limit": "Jumlah maksimal hasil pencarian (opsional, default 5)"
+  },
+  "creator": "Alpiann"
+        },
+        {
+  "name": "Pinterest Search",
+  "desc": "Cari gambar Pinterest berdasarkan keyword",
+  "path": "/search/pinterest?q=",
+  "status": "ready",
+  "params": {
+    "q": "Kata kunci pencarian"
+  },
+  "example": "/search/pinterest?q=anime"
+        },
+        {
+  "name": "SoundCloud Search",
+  "desc": "Cari lagu di SoundCloud berdasarkan query",
+  "path": "/search/soundcloud?query=",
+  "status": "ready",
+  "params": {
+    "query": "Kata kunci lagu yang ingin dicari"
+  },
+  "creator": "Alpiann"
+}
+      ]
+    },
+    
+    { 
+      "name": "Stalking",
+      "items": [
+        {
+  "name": "Twitter Stalker",
+  "desc": "Scrape profil dan tweet publik user Twitter",
+  "path": "/stalker/twitter?username=",
+  "status": "ready",
+  "params": {
+    "username": "Username Twitter yang ingin dicari"
+  },
+  "creator": "Alpiann"
+}
+      ]
+    }
+  ]
+}
