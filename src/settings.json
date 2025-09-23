@@ -291,6 +291,15 @@
   "example": "/download/mediafire?url=https://www.mediafire.com/file/dd03rakruw4soks/aimlock+ramadhan+5.7z/file"
 },
       {
+  "name": "Instagram Downloader",
+  "desc": "Download gambar atau video dari postingan/reels/stories Instagram",
+  "path": "/download/instagram?url=",
+  "status": "ready",
+  "params": {
+    "url": "Link Instagram yang ingin di-download"
+  }
+      },
+      {
   "name": "MCPEDL Downloader",
   "desc": "Scrape link download langsung dari halaman MCPEDL",
   "path": "/download/mcpedl?url=",
