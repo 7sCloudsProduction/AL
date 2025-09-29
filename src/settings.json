@@ -236,6 +236,25 @@
     { 
       "name": "Tools",
       "items": [
+        {
+  "name": "Pterodactyl Panel Creator",
+  "desc": "Buat user dan server otomatis di panel Pterodactyl dengan konfigurasi disk, CPU, dan root admin",
+  "path": "/tools/panel?domain=&apikeyptero=&capikeyptero=&nameserver=&disk=&cpu=&password=&rootadmin=",
+  "status": "ready",
+  "params": {
+    "domain": "Domain panel Pterodactyl",
+    "apikeyptero": "API Key admin Pterodactyl",
+    "capikeyptero": "API Key client Pterodactyl",
+    "nameserver": "Nama server yang ingin dibuat",
+    "disk": "Batas disk untuk server (MB)",
+    "cpu": "Batas CPU untuk server (%)",
+    "password": "Password user panel",
+    "rootadmin": "true/false apakah user root admin"
+  },
+  "creator": "Alpian",
+  "contact": "6287781287196",
+  "scrape": "https://whatsapp.com/channel/0029VbB0x9f4dTnIDQIMee31"
+},
       {
   "name": "Remove Background",
   "desc": "Menghapus background gambar secara otomatis",
