@@ -145,6 +145,17 @@
       "name": "Image Generator",
       "items": [
         {
+  "name": "Brat Colors",
+  "desc": "Membuat sticker/teks Brat dari teks, background, dan warna",
+  "path": "/maker/bratv2?text=&bg=&color=",
+  "status": "ready",
+  "params": {
+    "text": "Teks yang ingin dibuat",
+    "bg": "Background, contoh: black, white",
+    "color": "Warna teks, contoh: yellow, red"
+  }
+},
+        {
           "name": "Brat Maker",
           "desc": "Generate brat style image with custom text (requires text param)",
           "path": "/maker/brat?text=hai",
