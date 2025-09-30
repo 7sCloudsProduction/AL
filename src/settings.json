@@ -248,16 +248,6 @@
       "name": "Tools",
       "items": [
         {
-  "name": "ToURL Uploader",
-  "desc": "Upload media/file ke beberapa Uploader untuk di jadikan link.",
-  "path": "/tools/tourl",
-  "status": "ready",
-  "method": "POST",
-  "params": {
-    "file": "File biner (form-data) yang akan di-upload"
-  }
-},
-        {
   "name": "Pterodactyl Panel Creator",
   "desc": "Buat user dan server otomatis di panel Pterodactyl dengan konfigurasi disk, CPU, dan root admin",
   "path": "/tools/panel?domain=&apikeyptero=&capikeyptero=&nameserver=&disk=&cpu=&password=&rootadmin=",
