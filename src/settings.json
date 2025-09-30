@@ -15,6 +15,16 @@
       "name": "AI (Artificial Intelligence)",
       "items": [
         {
+  "name": "MagicStudio AI",
+  "desc": "Generate gambar dengan AI MagicStudio berdasarkan prompt teks",
+  "path": "/ai/magicstudio?prompt=",
+  "status": "ready",
+  "params": {
+    "prompt": "Deskripsi gambar yang ingin dibuat (contoh: cewe dengan senja di atas batu menghadap ke lautan)"
+  },
+  "creator": "Alpiann"
+},
+        {
           "name": "LuminAI",
           "desc": "Talk with luminai",
           "path": "/ai/luminai?text=",
